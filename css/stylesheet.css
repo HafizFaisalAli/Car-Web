@@ -1,0 +1,312 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    background-image: url(../media/car.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+/* start navbar */
+
+.navbar{
+    width: auto;
+    height: 80px;
+    padding: 10px 50px;
+}
+.navbar .logo{
+    float: left;
+}
+.navbar .logo img{
+    width: 80px;  
+}
+.navbar .logo h1{
+    float: left;
+    font-size: 30px;
+    padding-right:10px;
+    padding-top: 20px;
+    text-transform: uppercase;
+    color: rgb(47, 201, 201);
+    display: inline;
+
+}
+.navbar ul{
+    float: right;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 10px 20px;
+}
+.navbar ul li a{
+    color: gold;
+    font-size: 20px;
+}
+.navbar ul li a:hover{
+    font-size: 20px;
+    color: rgb(47, 201, 201);
+    border-bottom: 2px gold solid;
+
+}
+#toggler,label{
+    display: none;
+}
+label i {
+    color: white;
+}
+
+/* start navbar */
+
+/* heading start*/
+
+.container .heading{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 65px;
+}
+.heading h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: rgb(16, 116, 116);
+}
+.heading button{
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    background-color:rgb(16, 116, 116);
+}
+.heading button a{
+    font-size: 15px;
+    color: white;
+}
+.heading button a:hover{
+    color: gold;
+    font-size: 15px;
+}
+.heading button:hover{
+    border: 1px solid gold;
+    padding: 9px 29px;
+    border-radius: 5px;
+    background-color:rgb(16, 116, 116);
+}
+
+/* heading end */
+
+/* our service start */
+.containerB{
+    background-color: rgb(37, 92, 92);
+}
+.containerB .headinga h1 {
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    padding: 20px 0px;
+    color: gold;
+}
+.pa{
+    margin: 50px 30px 10px 30px;
+    display: flex;
+     /* flex-direction: column; */
+}
+
+.containerB .pa  h1{
+    color: rgb(97, 181, 181);
+    text-decoration: underline;
+    padding-left:  20px;
+    text-transform: uppercase;
+  
+}
+.containerB .pa p{
+    color:  white;
+    font-size: 17px;
+    padding: 0px 0px 0px 20px;
+    text-align: justify;
+    line-height: 25px;
+    /* width: 600px; */
+    margin: 10px 100px 10px 0px;
+}
+.pa img{
+  /* float: right; */
+  max-width: 500px;
+  border-radius: 20px;
+  background-color: black;
+  margin: 40px 30px 0px 0px;
+}
+.pa button{
+    margin: 10px 20px;
+    padding: 5px 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(97, 181, 181);
+    display: block;
+    
+}
+.pa button a{
+    font-size: 20px;
+    color: rgb(37, 92, 92);
+}
+.pa button a:hover{
+    color: white;
+}
+
+
+
+
+/* pb start */
+.pb{
+    margin: 50px 30px 50px 30px;
+    display: flex;
+}
+.containerB .pb h1{
+    color: rgb(97, 181, 181);
+    text-decoration: underline;
+    padding: 0px 0px;
+    text-transform: uppercase;
+  
+}
+.containerB .pb p{
+    color:  white;
+    font-size: 17px;
+    padding: 0px 30px 0px 0px;
+    text-align: justify;
+    line-height: 25px;
+
+
+}
+.pb img{
+    /* float: left; */
+    width: 550px;
+    height: 350px;
+    border-radius: 20px;
+    margin: 20px 100px 50px 20px;
+    background-color: black;
+  
+}
+.pb button{
+    margin: 20px 0px;
+    padding: 5px 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(97, 181, 181);
+    /* margin-bottom: 60px; */
+}
+.pb button a{
+    font-size: 20px;
+    color: rgb(37, 92, 92);
+}
+.pb button a:hover{
+    color: white;
+}
+
+
+/* our service start */
+
+ /* price start */
+.pricelist{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0px ;
+
+}
+.pricelist h1{
+    font-size: 40px;
+    border-bottom: 5px solid red;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+.pricelist p{
+    font-size: 35px;
+    font-weight: bold;
+    color: red;
+    padding-bottom: 10px;
+
+}
+.pricelist p sub{
+    font-size: 15px;
+}
+.pricelist li{
+    font-size: 20px;
+    list-style: disc;
+
+}
+
+ /* price end */
+
+ /* foam start  */
+.foam {
+    margin: 0px auto;
+    background-color:  rgb(37, 92, 92) ;
+    
+}
+.foam fieldset{
+    border: none;
+}
+.foam {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+    text-align: start;
+}
+.foam .input{
+    width: 300px;
+    padding: 10px 70px 10px 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0px;
+    text-align: start;
+}
+.foam button {
+    width: 380px;
+    padding: 10px  0px;
+    border: none;
+    border-radius: 5px;
+}
+.foam button a {
+    font-size: 17px;
+    color: rgb(37, 92, 92) ;
+    font-weight: bold;
+}
+.foam .input:hover{
+    width: 300px;
+    padding: 10px 70px 10px 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0px;
+    text-align: start;
+    background-color: rgb(35, 38, 38);
+    transition: .5s;
+}
+.foam button:hover{
+    background-color: rgb(35, 38, 38);
+    transition: .5s;
+}
+.foam button a:hover{
+    color: white;
+}
+
+
+
+
+.end p{
+    text-align: center;
+    color: white;
+    background-color: rgb(41, 78, 78);
+    padding: 20px 0px ;
+    font-size: 20px;
+}
+ /* foam end  */
+
+
+
+
+
+
+

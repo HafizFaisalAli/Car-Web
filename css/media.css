@@ -1,0 +1,178 @@
+@media screen and (max-width: 1000px){
+
+   .menu{
+   width: 100%;
+   height: 0;
+   overflow: hidden;
+   background-color: rgb(37, 92, 92);
+   display: block;
+   border-radius: 5px;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   position: relative;
+   
+   }
+   label{
+   display: inline-flex;
+   float: right;
+   padding-top: 20px;
+   font-size: 25px;
+   }
+   
+   #toggler:checked~.menu{
+   height: 400%;
+   }
+   .list{
+      display: flex;
+      flex-direction: column;
+   
+   }
+   label:hover{
+      font-size: 24px;
+   }
+
+   .heading h1{
+      font-size: 35px;
+   }
+   .heading button{
+      padding: 5px 15px;
+  }
+  .heading button a{
+      font-size: 15px;
+  }
+  .heading button a:hover{
+      font-size: 15px;
+  }
+  .heading button:hover{
+      border: 1px solid gold;
+      padding: 4px 14px;
+      border-radius: 5px;
+      background-color:rgb(16, 116, 116);
+  }
+  .pricelist h1{
+      font-size: 30px;
+      border-bottom: 3px solid red;
+      margin-bottom: 20px ;
+  }
+  .pricelist p{
+      font-size: 30px;
+      font-weight: bold;
+      color: red;
+      padding-bottom: 10px;
+  
+  }
+  .pricelist p sub{
+      font-size: 10px;
+  }
+  .pricelist li{
+      font-size: 15px;
+  }
+  .foam{
+   padding: 20px 0px;
+  }
+  .foam .input{
+   width: 200px;
+  }
+  .foam button {
+   width: 280px;
+  }
+  .foam .input:hover{
+   width: 200px;
+  }
+  .pa{
+   margin: 50px 0px 50px 30px;
+   display: flex;
+   flex-direction: column;
+  }
+  .containerB .pa h1{
+   padding: 0px 0px 0px 0px;
+   margin: 0px 0px 0px 10px;
+  }
+
+  .containerB .pa p{
+   margin: 0px 40px 0px 0px;
+   padding: 10px 0px 0px 10px;
+  }
+.pa img{
+   display: flex;
+   max-width: 500px;
+   border-radius: 20px;
+   background-color: black;
+   margin: 20px auto 0px auto;
+   
+ }
+ .containerB .pa button{
+   padding: 5px 30px;
+   margin: 10px 0px 10px 10px;
+  }
+
+ .pb{
+   margin: 50px 0px 50px 30px;
+   display: flex;
+   flex-direction: column-reverse;
+  }
+  .pb p{
+   color:  white;
+   font-size: 17px;
+   text-align: justify;
+   line-height: 25px;
+   margin-top: 10px;
+  }
+  .containerB .pb img{
+   display: flex;
+   max-width: 500px;
+   border-radius: 20px;
+   background-color: black;
+   margin: 20px auto 30px auto;
+   
+ }
+ 
+
+}
+
+@media (max-width:700px){
+    .containerB .pa img{
+        max-width: 300px;
+        margin-top: 20px;
+    }
+    .pa{
+        margin-top: 10px;
+    }
+    .pa h1 {
+        font-size: 25px;
+    }
+    .containerB .headinga h1 {
+        font-size: 35px;
+    }
+    .containerB .pb img{
+        max-width: 300px;
+        height: 300px;
+    }
+
+}
+
+@media (max-width:1300px){
+    .pa{
+        display: flex;
+        flex-direction: column;
+    }
+    .pb{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .pa img{
+        display: flex;
+        margin: 0px auto;
+    }
+    .pb img{
+        display: flex;
+        margin: 10px auto 30px auto;
+    }
+    .menu .list{
+        font-size: 20px;
+    }
+    .container .heading h1{
+        font-size: 40px;
+    }
+}
